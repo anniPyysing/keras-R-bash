@@ -11,6 +11,8 @@ export GIT_COMMITTER_EMAIL=anon@localhost
 git clone https://github.com/anniPyysing/keras-R.git
 
 rmdir work
-keras-R-bash.bash
+#rmdir keras-R-bash.bash
 
-#pip install numpy --upgrade
+pip --no-cache-dir install tensorflow
+
+pip --no-cache-dir install PyYAML seaborn keras
