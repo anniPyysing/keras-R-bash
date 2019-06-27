@@ -11,6 +11,6 @@ export GIT_COMMITTER_EMAIL=anon@localhost
 git clone https://github.com/anniPyysing/keras-R.git
 
 rmdir work
-rm ml-bash-file.bash
+keras-R-bash.bash
 
 #pip install numpy --upgrade
