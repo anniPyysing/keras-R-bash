@@ -13,6 +13,12 @@ git clone https://github.com/anniPyysing/keras-R.git
 rmdir work
 #rmdir keras-R-bash.bash
 
+# install tensorflow
 pip --no-cache-dir install tensorflow
 
+# install keras
 pip --no-cache-dir install PyYAML seaborn keras
+
+# install keras R-package
+R -e 'install.packages("devtools")'
+R -e 'devtools::install_github("rstudio/keras")'
